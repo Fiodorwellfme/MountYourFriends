@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Games\\SPT 4.0\\Mods To compile\\PiP-Disabler\\PiPDisablerPlugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|c:\\games\\spt 4.0\\mods to compile\\mountyourfriends\\patches\\mountingpointlayermaskpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|solutionrelative:patches\\mountingpointlayermaskpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|c:\\games\\spt 4.0\\mods to compile\\mountyourfriends\\mountyourfriends.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|solutionrelative:mountyourfriends.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|c:\\games\\spt 4.0\\mods to compile\\mountyourfriends\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|c:\\games\\spt 4.0\\mods to compile\\mountyourfriends\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|c:\\games\\spt 4.0\\mods to compile\\mountyourfriends\\patches\\supportmounttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1F779E-D4D6-259E-03CC-4D252ECBEB21}|MountYourFriends.csproj|solutionrelative:patches\\supportmounttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PiPDisablerPlugin.cs",
+              "DocumentMoniker": "C:\\Games\\SPT 4.0\\Mods To compile\\PiP-Disabler\\PiPDisablerPlugin.cs",
+              "RelativeDocumentMoniker": "..\\PiP-Disabler\\PiPDisablerPlugin.cs",
+              "ToolTip": "C:\\Games\\SPT 4.0\\Mods To compile\\PiP-Disabler\\PiPDisablerPlugin.cs",
+              "RelativeToolTip": "..\\PiP-Disabler\\PiPDisablerPlugin.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:50:07.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SupportMountTracker.cs",
+              "DocumentMoniker": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Patches\\SupportMountTracker.cs",
+              "RelativeDocumentMoniker": "Patches\\SupportMountTracker.cs",
+              "ToolTip": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Patches\\SupportMountTracker.cs",
+              "RelativeToolTip": "Patches\\SupportMountTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:46:18.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MountingPointLayerMaskPatch.cs",
+              "DocumentMoniker": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Patches\\MountingPointLayerMaskPatch.cs",
+              "RelativeDocumentMoniker": "Patches\\MountingPointLayerMaskPatch.cs",
+              "ToolTip": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Patches\\MountingPointLayerMaskPatch.cs",
+              "RelativeToolTip": "Patches\\MountingPointLayerMaskPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:46:30.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:31:39.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:31:20.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MountYourFriends.csproj",
+              "DocumentMoniker": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\MountYourFriends.csproj",
+              "RelativeDocumentMoniker": "MountYourFriends.csproj",
+              "ToolTip": "C:\\Games\\SPT 4.0\\Mods To compile\\MountYourFriends\\MountYourFriends.csproj",
+              "RelativeToolTip": "MountYourFriends.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-21T09:31:01.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
