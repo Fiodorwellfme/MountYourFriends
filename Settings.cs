@@ -49,25 +49,25 @@ namespace MountYourFriends
                     new global::ConfigurationManagerAttributes { IsAdvanced = true, ShowRangeAsPercent = false })));
 
             // --- Mounting ---
-            ConfigEntries.Add(MountHigherOffsetMeters = config.Bind("Mounting", "Mount Higher Offset", 0f,
+            ConfigEntries.Add(MountHigherOffsetMeters = config.Bind("Mounting", "Detection Higher Offset", 0f,
                 new ConfigDescription(
                     "Extra upward mount detection range in meters.",
                     new AcceptableValueRange<float>(0f, 2f),
                     new global::ConfigurationManagerAttributes { IsAdvanced = true, ShowRangeAsPercent = false })));
 
-            ConfigEntries.Add(MountLowerOffsetMeters = config.Bind("Mounting", "Mount Lower Offset", 0f,
+            ConfigEntries.Add(MountLowerOffsetMeters = config.Bind("Mounting", "Detection Lower Offset", 0f,
                 new ConfigDescription(
                     "Extra downward mount detection range in meters.",
                     new AcceptableValueRange<float>(0f, 2f),
                     new global::ConfigurationManagerAttributes { IsAdvanced = true, ShowRangeAsPercent = false })));
 
-            ConfigEntries.Add(MountedExtraPitchDegrees = config.Bind("Mounting", "Mounted Extra Pitch", 0f,
+            ConfigEntries.Add(MountedExtraPitchDegrees = config.Bind("Mounting", "Extra Pitch", 30f,
                 new ConfigDescription(
                     "Extra mounted pitch range in degrees, added both up and down.",
                     new AcceptableValueRange<float>(0f, 90f),
                     new global::ConfigurationManagerAttributes { IsAdvanced = true, ShowRangeAsPercent = false })));
 
-            ConfigEntries.Add(MountedExtraYawDegrees = config.Bind("Mounting", "Mounted Extra Yaw", 0f,
+            ConfigEntries.Add(MountedExtraYawDegrees = config.Bind("Mounting", "Extra Yaw", 180f,
                 new ConfigDescription(
                     "Extra mounted yaw range in degrees, added both left and right.",
                     new AcceptableValueRange<float>(0f, 180f),
