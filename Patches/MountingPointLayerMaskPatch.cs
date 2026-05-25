@@ -15,6 +15,7 @@ namespace MountYourFriends.Patches
         {
             __instance.LayerMask_0 |= LayerMaskClass.PlayerMask;
             __instance.LayerMask_1 |= LayerMaskClass.PlayerMask;
+            MountingSettingsOverrides.ApplyDetectionSettings(__instance.ImountingPointDetectionSettings_0);
         }
     }
 }

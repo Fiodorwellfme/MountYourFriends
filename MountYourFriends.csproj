@@ -15,10 +15,13 @@
 
 	<ItemGroup>
 		<Compile Remove="build\**" />
+		<Compile Remove="Fika\**" />
 		<Compile Remove="Releases\**" />
 		<EmbeddedResource Remove="build\**" />
+		<EmbeddedResource Remove="Fika\**" />
 		<EmbeddedResource Remove="Releases\**" />
 		<None Remove="build\**" />
+		<None Remove="Fika\**" />
 		<None Remove="Releases\**" />
 	</ItemGroup>
 
