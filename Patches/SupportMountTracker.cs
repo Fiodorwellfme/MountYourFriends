@@ -18,16 +18,24 @@ namespace MountYourFriends
             ActiveSupports.Remove(mountedContext);
 
             if (!mountedContext.IsInMountedState)
+            {
+                Log("Support mount capture skipped: movement context is not in mounted state.");
                 return;
+            }
 
             Player supportPlayer = FindSupportPlayer(mountedContext, mountPointData.MountPoint);
             if (supportPlayer == null)
+            {
+                Log($"Support mount capture skipped: no support player found within {Settings.SupportDetectionRadiusMeters.Value}m of mount point.");
                 return;
+            }
 
             ActiveSupports[mountedContext] = new SupportMountState(
                 supportPlayer,
                 supportPlayer.MovementContext.TransformPosition,
                 supportPlayer.MovementContext.Yaw);
+
+            Log($"Captured support mount: support={GetPlayerName(supportPlayer)}.");
         }
 
         internal static void Tick(float deltaTime)
@@ -63,6 +71,20 @@ namespace MountYourFriends
 
             for (int i = 0; i < ContextsToRemove.Count; i++)
                 ActiveSupports.Remove(ContextsToRemove[i]);
+        }
+
+        internal static bool TryGetSupportPlayer(Player mountedPlayer, out Player supportPlayer)
+        {
+            supportPlayer = null;
+
+            if (mountedPlayer == null || mountedPlayer.MovementContext == null)
+                return false;
+
+            if (!ActiveSupports.TryGetValue(mountedPlayer.MovementContext, out SupportMountState state))
+                return false;
+
+            supportPlayer = state.SupportPlayer;
+            return supportPlayer != null;
         }
 
         private static Player FindSupportPlayer(MovementContext mountedContext, Vector3 mountPoint)
@@ -101,6 +123,17 @@ namespace MountYourFriends
                 return false;
 
             return Mathf.Abs(Mathf.DeltaAngle(state.InitialYaw, state.SupportPlayer.MovementContext.Yaw)) > threshold;
+        }
+
+        private static string GetPlayerName(Player player)
+        {
+            return player?.Profile?.Info?.Nickname ?? "unknown";
+        }
+
+        private static void Log(string message)
+        {
+            if (Settings.DebugLogging.Value)
+                global::MountYourFriends.MountYourFriends.LogSource.LogInfo(message);
         }
 
         private sealed class SupportMountState
