@@ -68,7 +68,7 @@ namespace MountYourFriends.Patches
             }
 
             PlayerMountingPointData mountingData = state.PlayerMountingPointData_0;
-            if (mountingData?.MountPointData == null || mountingData.MountPointData.MountSideDirection != EMountSideDirection.Forward)
+            if (mountingData?.MountPointData == null)
             {
                 OrbitStates.Remove(state);
                 return;
